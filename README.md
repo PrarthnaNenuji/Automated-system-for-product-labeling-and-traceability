@@ -9,16 +9,13 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
 
 ### 📦 Project Structure
 ├── data/
-│ └── custom.yaml # Custom label config
+│ └── custom.yaml
 ├── scripts/
-│ ├── label_verification.py # Post-processing + label validation
-│ └── logic.py # Accept/Reject signal logic (simulation)
+│ ├── label_verification.py 
 ├── yolov5/
-│ ├── train.py # Training script
-│ ├── detect.py # Detection script
-│ └── ...
-├── requirements.txt # Required packages
-├── README.md # This file
+│ ├── train.py 
+│ ├── detect.py 
+├── README.md 
 
 ### 🧠 Model Info
 
@@ -33,6 +30,5 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
    - Checks if **all 5 labels** are present.
    - Flags missing or duplicated labels.
 3. Based on verification:
-   - `logic.py` prints a **green LED** (✔ Accept) or **red LED** (❌ Reject) signal.
-4. (Optional) OCR can be added for reading text inside each label.
+   - Prints a **green LED** (✔ Accept) or **red LED** (❌ Reject) signal.
 
