@@ -9,13 +9,14 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
 
 ### 📦 Project Structure
 ├── data/
-│ └── custom.yaml
+│   └── custom.yaml
 ├── scripts/
-│ ├── label_verification.py 
+│   └── label_verification.py
 ├── yolov5/
-│ ├── train.py 
-│ ├── detect.py 
-├── README.md 
+│   ├── train.py
+│   ├── detect.py
+├── requirements.txt
+├── README.md
 
 ### 🧠 Model Info
 
