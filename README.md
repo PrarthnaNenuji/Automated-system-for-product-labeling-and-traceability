@@ -13,6 +13,7 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
 │   └── custom.yaml
 ├── scripts/
 │   └── label_verification.py
+│   └── label_inspection_script.py
 ├── yolov5/
 │   ├── train.py
 │   ├── detect.py
