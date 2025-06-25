@@ -8,6 +8,7 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
 - Serial Number
 
 ### 📦 Project Structure
+'''
 ├── data/
 │   └── custom.yaml
 ├── scripts/
@@ -17,6 +18,7 @@ This project uses a **YOLOv5 object detection model** to detect key labels on pr
 │   ├── detect.py
 ├── requirements.txt
 ├── README.md
+'''
 
 ### 🧠 Model Info
 
