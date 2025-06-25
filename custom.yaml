@@ -1,5 +1,0 @@
-train: C:/Users/Administrator/Downloads/YOLO_dataset/YOLO_dataset/images/train
-val: C:/Users/Administrator/Downloads/YOLO_dataset/YOLO_dataset/images/train  
-
-nc: 5  # number of classes
-names: ['Device ID', 'Batch ID', 'Manufacturing Date', 'RoHS Compliance', 'Serial Number']
